@@ -1,0 +1,20 @@
+# Data
+DATA/
+*.csv
+*.pkl
+*.h5
+__pycache__/
+.pytest_cache/
+
+# Ignore test outputs
+tests/test_output.txt
+tests/test_error.txt
+tests/debug_*.py
+
+# Models & Artifacts
+NetworkAnomalyDetectionSystem/src/models/*.pkl
+NetworkAnomalyDetectionSystem/src/models/autoencoder/
+NetworkAnomalyDetectionSystem/src/models/lstm/
+NetworkAnomalyDetectionSystem/src/processing/*.pkl
+NetworkAnomalyDetectionSystem/__pycache__/
+NetworkAnomalyDetectionSystem/.pytest_cache/

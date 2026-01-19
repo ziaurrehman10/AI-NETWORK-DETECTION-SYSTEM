@@ -1,0 +1,14 @@
+# Data
+DATA/
+*.csv
+*.pkl
+*.h5
+__pycache__/
+.pytest_cache/
+tests/test_output.txt
+tests/test_error.txt
+tests/debug_*.py
+src/models/*.pkl
+src/models/autoencoder/
+src/models/lstm/
+src/processing/*.pkl
