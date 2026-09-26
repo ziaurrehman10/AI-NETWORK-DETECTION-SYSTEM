@@ -12,3 +12,5 @@ src/models/*.pkl
 src/models/autoencoder/
 src/models/lstm/
 src/processing/*.pkl
+
+NetworkAnomalyDetectionSystem/myenv

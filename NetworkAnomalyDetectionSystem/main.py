@@ -33,7 +33,7 @@ def main():
     print("Loading data...")
     # Use the smaller testing set for quick training/verification in this simulation
     # In production, training set would be UNSW-NB15_1.csv etc.
-    train_file = r"D:\DS\Anomaly Detection\DATA\UNSW_NB15_testing-set.csv" 
+    train_file = r"D:\network-anomaly-detection-system\NetworkAnomalyDetectionSystem\UNSW_NB15_testing-set.csv" 
     # Logic: We usually train on "Normal" data for anomaly detection or a mix with labels.
     # The dataset has labels. 
     

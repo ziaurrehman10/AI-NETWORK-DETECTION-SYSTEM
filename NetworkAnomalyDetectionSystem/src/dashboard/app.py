@@ -18,6 +18,11 @@ from src.ingestion.stream_loader import StreamLoader
 from src.processing.preprocessor import Preprocessor
 from src.models.baseline import IsolationForestModel
 from src.models.deep_learning import AutoEncoderModel, LSTMModel
+import os
+
+# Gets the absolute directory path of the root folder
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+data_path = os.path.join(BASE_DIR, "UNSW_NB15_testing-set.csv")
 
 st.set_page_config(page_title="Network Anomaly Detection", layout="wide")
 
@@ -87,7 +92,7 @@ if 'anomaly_history' not in st.session_state:
 
 def process_stream():
     # Use testing set for simulation
-    data_path = r"D:\DS\Anomaly Detection\DATA\UNSW_NB15_testing-set.csv"
+    data_path = "UNSW_NB15_testing-set.csv"
     loader = StreamLoader(data_path, chunk_size=chunk_size, delay=data_speed)
     
     total_anomalies = 0

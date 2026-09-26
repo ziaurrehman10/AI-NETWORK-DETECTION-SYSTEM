@@ -35,7 +35,7 @@ class StreamLoader:
 
 if __name__ == "__main__":
     # Test the loader
-    data_path = r"D:\DS\Anomaly Detection\DATA\UNSW_NB15_testing-set.csv"
+    data_path = r"D:\network-anomaly-detection-system\NetworkAnomalyDetectionSystem\UNSW_NB15_testing-set.csv"
     loader = StreamLoader(data_path, chunk_size=5)
     
     print("Testing StreamLoader...")
