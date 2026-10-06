@@ -1,5 +1,5 @@
 # Network Anomaly Detection System
-
+LIVE LINK: https://ai-network-detection-system.onrender.com/
 A comprehensive system for detecting network anomalies using machine learning (Isolation Forest) and deep learning (Autoencoder, LSTM). The system includes real-time data ingestion simulation, preprocessing, model training, and an interactive dashboard for monitoring.
 
 ## 📂 Project Structure
